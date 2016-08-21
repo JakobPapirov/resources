@@ -1,0 +1,51 @@
+body {
+	padding-top: 150px; /* To offset the fixed-top navbar */
+}
+.container {
+	max-width: 960px;
+	padding: 30px;
+	border-radius: 10px;
+	border: 5px solid black;
+	margin: auto;
+}
+.page-title {
+	padding: 0;
+	text-align: center;
+}
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.header-section {
+	padding: 0;
+	text-align: center;
+}
+.between-sections {
+	border-width: 5px;
+	border-bottom: dashed;
+	border-color: #777;
+	padding: 0;
+	text-align: center;
+}
+.inbetween-sections {
+	border-width: 5px;
+	border-bottom: dotted;
+	border-color: #777;
+}
+ul {
+	list-style: none;
+	text-align: left;
+}
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.resources {
+	text-align: center;
+}
