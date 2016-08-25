@@ -37,6 +37,11 @@ hr {
 	border-bottom: dotted;
 	border-color: #777;
 }
+.inbetween-sections {
+	border-width: 5px;
+	border-bottom: dotted;
+	border-color: #777;
+}
 ul {
 	list-style: none;
 	text-align: left;
@@ -48,4 +53,16 @@ footer {
 }
 .resources {
 	text-align: center;
+}
+nav {
+	position: fixed; /*So it doesn't move with scroll */
+	bottom: 10%; /*So it stops 40 % from the bottom of viewport */
+	right: 10%; /* Offset from the right, has to account for scrollbar on page */
+	width: 100px; /* Width of nav */
+	border: 3px solid black; /*  */
+	border-radius: 0%; /* Slightly curved edges */
+	background-color: #dafce0;
+}
+.nav-tabs a:hover {
+	background-color: red;
 }
